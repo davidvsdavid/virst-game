@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title> X & O </title>
+        <link href="front.css" rel="stylesheet" type="text/css"/>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    </head>
+    <body>
+        <h1> X & O </h1>
+        <div id="board">
+            <div data-index="1" class="tile right-border bottom-border"></div>
+            <div data-index="2" class="tile right-border bottom-border"></div>
+            <div data-index="3" class="tile bottom-border"></div>
+            <div data-index="4" class="tile right-border bottom-border"></div>
+            <div data-index="5" class="tile bottom-border right-border"></div>
+            <div data-index="6" class="tile bottom-border "></div>
+            <div data-index="7" class="tile right-border"></div>
+            <div data-index="8" class="tile right-border"></div>
+            <div data-index="9" class="tile"></div>   
+            <div id="strike" class="strike"></div>
+        </div>
+        <div id="game-over-area" class="hidden">
+          <h2 id="game-over-text">WINNER IS X</h2>
+          <button id="play-again">PLAY AGAIN </button>
+        </div>
+        <p class="quote"> &copy; X & O 2023 - Design by David Makate </p> 
+        <script src="back.js"></script>
+        
+    </body>
+</html>
